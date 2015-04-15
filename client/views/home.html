@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Hi! Welcome to tiptrip</h1>
+  <h2>Share your trip and get some tips!</h2>
+
+  <div class="login" ng-hide="$root.user">
+    <a ui-sref="login">login</a> or <a ui-sref="register">register</a>
+  </div>
+
+  <div class="enter-code row">
+    <h4 class="text-center"><i class="ion-log-in"></i> Enter code</h4>
+    <input class="col-sm-7 input-lg" type="text" id="code" name="code" ng-model="code" placeholder="Trip Code"/>
+    <button type="submit" class="col-sm-offset-1 col-sm-4 btn btn-lg btn-primary">Go!</button>
+  </div>
+
+
+    <div class="user" ng-show="$root.user">
+      hello {{$root.user.email}}
+      <button type="submit" class="col-sm-offset-1 col-sm-4 btn btn-lg btn-primary" ng-click="logout()" >Logout</button>
+    </div>
+  </div>
+</div>
