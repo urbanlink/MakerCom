@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tiptripApp')
+angular.module('makercomApp')
 
   .factory('AccountSrv', function($rootScope, $http, $auth) {
 

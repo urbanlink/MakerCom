@@ -1,7 +1,7 @@
 'use strict';
 
 
-angular.module('tiptripApp')
+angular.module('makercomApp')
   .controller('UserCtrl', function ($scope, AccountSrv) {
 
     $scope.authenticate = function(provider) {

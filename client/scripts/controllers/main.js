@@ -1,13 +1,10 @@
 'use strict';
 
 /**
- * @ngdoc function
- * @name tiptripApp.controller:MainCtrl
- * @description
  * # MainCtrl
  * Controller of the tiptripApp
  */
-angular.module('tiptripApp')
+angular.module('makercomApp')
   .controller('HomeCtrl', function ($scope, AccountSrv) {
 
     $scope.authenticate = function(provider) {

@@ -1,15 +1,10 @@
 'use strict';
 
 /**
- * @ngdoc overview
- * @name tiptripApp
- * @description
- * # tiptripApp
- *
  * Main module of the application.
  */
 angular
-  .module('tiptripApp', [
+  .module('makercomApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
