@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "mysql": "^2.6.2",
-    "sequelize": "^2.0.5"
+    "sequelize": "^5.21.2"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
